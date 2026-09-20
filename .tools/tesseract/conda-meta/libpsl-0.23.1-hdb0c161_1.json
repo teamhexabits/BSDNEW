@@ -1,0 +1,70 @@
+{
+    "arch": "arm64",
+    "build": "hdb0c161_1",
+    "build_number": 1,
+    "build_string": "hdb0c161_1",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__osx >=11.0",
+        "libcxx >=21",
+        "icu >=78.3,<79.0a0"
+    ],
+    "extracted_package_dir": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/libpsl-0.23.1-hdb0c161_1",
+    "files": [
+        "include/libpsl.h",
+        "lib/libpsl.5.dylib",
+        "lib/libpsl.dylib",
+        "lib/pkgconfig/libpsl.pc"
+    ],
+    "fn": "libpsl-0.23.1-hdb0c161_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/libpsl-0.23.1-hdb0c161_1",
+        "type": 1
+    },
+    "md5": "5d270f716a2b4bc13df9af8612071b17",
+    "name": "libpsl",
+    "package_tarball_full_path": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/libpsl-0.23.1-hdb0c161_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/libpsl.h",
+                "path_type": "hardlink",
+                "sha256": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e",
+                "sha256_in_prefix": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e",
+                "size_in_bytes": 5766
+            },
+            {
+                "_path": "lib/libpsl.5.dylib",
+                "path_type": "hardlink",
+                "sha256": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace",
+                "sha256_in_prefix": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace",
+                "size_in_bytes": 137392
+            },
+            {
+                "_path": "lib/libpsl.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "02efccbd65f8dc47fde79fea72812f80dc1ae5076b2887731cd3e9c2d0ba6ace",
+                "size_in_bytes": 14
+            },
+            {
+                "_path": "lib/pkgconfig/libpsl.pc",
+                "path_type": "hardlink",
+                "sha256": "392a9ec0913f588fa070c18b8bd9141fff294eb2c9d6f0a0e275d187e7560aaa",
+                "sha256_in_prefix": "fb54c1582e3b72127b218eb260b05f5585e49fe5494ffa2e7a5f0a02b05e1c55",
+                "size_in_bytes": 458
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "",
+    "sha256": "c8c3153df39abedf3413483f672151ad70f1adb0c06c192bdf7ec432c3616b07",
+    "size": 72673,
+    "subdir": "osx-arm64",
+    "timestamp": 1786970928,
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libpsl-0.23.1-hdb0c161_1.conda",
+    "version": "0.23.1"
+}

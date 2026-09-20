@@ -1,0 +1,12 @@
+prefix=/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/leptonica
+
+Name: leptonica
+Description: An open source C library for efficient image processing and image analysis operations
+Version: 1.87.0
+Libs: -L${libdir} -lleptonica
+Libs.private: -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lz -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lpng16 -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -ljpeg -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lopenjp2 -lgif -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -ltiff -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lwebp -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lwebpmux
+Cflags: -I${includedir}
+

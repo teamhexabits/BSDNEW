@@ -1,0 +1,86 @@
+{
+    "arch": "arm64",
+    "build": "hdb3d66b_0",
+    "build_number": 0,
+    "build_string": "hdb3d66b_0",
+    "channel": "conda-forge",
+    "constrains": [
+        "intel-openmp <0.0a0",
+        "openmp 23.1.0|23.1.0.*"
+    ],
+    "depends": [
+        "__osx >=11.0"
+    ],
+    "extracted_package_dir": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.0-hdb3d66b_0",
+    "files": [
+        "include/omp-tools.h",
+        "include/omp.h",
+        "include/ompt.h",
+        "include/ompx.h",
+        "lib/libiomp5.dylib",
+        "lib/libomp.dylib"
+    ],
+    "fn": "llvm-openmp-23.1.0-hdb3d66b_0.conda",
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "link": {
+        "source": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.0-hdb3d66b_0",
+        "type": 1
+    },
+    "md5": "0affff5130a421d11d4d77ffbb00dad7",
+    "name": "llvm-openmp",
+    "package_tarball_full_path": "/private/var/folders/0q/p4mvy3n12mn45vk65t8231lm0000gn/T/cursor-sandbox-cache/e3d9aef2b1091e7e70ac03c3305d9276/conda/https/conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.0-hdb3d66b_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/omp-tools.h",
+                "path_type": "hardlink",
+                "sha256": "beb69484461896d0876b93826ef0badcdedd3278db11d087fa987b7b3d89640e",
+                "sha256_in_prefix": "beb69484461896d0876b93826ef0badcdedd3278db11d087fa987b7b3d89640e",
+                "size_in_bytes": 54857
+            },
+            {
+                "_path": "include/omp.h",
+                "path_type": "hardlink",
+                "sha256": "4066c7a384a8c9a8a241287db0e2625216746da831c61083124d11ae203ab66f",
+                "sha256_in_prefix": "4066c7a384a8c9a8a241287db0e2625216746da831c61083124d11ae203ab66f",
+                "size_in_bytes": 27483
+            },
+            {
+                "_path": "include/ompt.h",
+                "path_type": "hardlink",
+                "sha256": "beb69484461896d0876b93826ef0badcdedd3278db11d087fa987b7b3d89640e",
+                "sha256_in_prefix": "beb69484461896d0876b93826ef0badcdedd3278db11d087fa987b7b3d89640e",
+                "size_in_bytes": 54857
+            },
+            {
+                "_path": "include/ompx.h",
+                "path_type": "hardlink",
+                "sha256": "615f992968ce71f04429ebc34da924f4114c622d6a943904661382ab9cc5502c",
+                "sha256_in_prefix": "615f992968ce71f04429ebc34da924f4114c622d6a943904661382ab9cc5502c",
+                "size_in_bytes": 7742
+            },
+            {
+                "_path": "lib/libiomp5.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "de0852444e13e5fcdaff1e8669445afb837a5d3421df17a617ffefe29b52a8e4",
+                "size_in_bytes": 844912
+            },
+            {
+                "_path": "lib/libomp.dylib",
+                "path_type": "hardlink",
+                "sha256": "de0852444e13e5fcdaff1e8669445afb837a5d3421df17a617ffefe29b52a8e4",
+                "sha256_in_prefix": "de0852444e13e5fcdaff1e8669445afb837a5d3421df17a617ffefe29b52a8e4",
+                "size_in_bytes": 844912
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "",
+    "sha256": "996d3a9de61c8ccc3fcb265938f9845f11868251f38e6db4e7190de3f9a971a2",
+    "size": 287808,
+    "subdir": "osx-arm64",
+    "timestamp": 1787723323,
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.0-hdb3d66b_0.conda",
+    "version": "23.1.0"
+}

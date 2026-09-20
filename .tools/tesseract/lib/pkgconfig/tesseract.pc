@@ -1,0 +1,16 @@
+prefix=/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+datarootdir = ${prefix}/share
+datadir=${datarootdir}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: tesseract
+Description: An OCR Engine that was developed at HP Labs (1985-1995) and Google (2006-2018).
+URL: https://github.com/tesseract-ocr/tesseract
+Version: 5.5.3
+Requires.private: lept
+Libs: -L${libdir} -ltesseract -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -larchive -L/Users/tusharmaheshkhandade/Downloads/border-doc-screen/.tools/tesseract/lib -lcurl
+Libs.private: -lpthread
+Cflags: -I${includedir}
