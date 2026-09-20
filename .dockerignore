@@ -1,0 +1,17 @@
+.venv/
+.tools/
+.git/
+.gitignore
+.pytest_cache/
+.vscode/
+.cursor/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.png
+!app/static/**
+.DS_Store
+_memory_.ses
